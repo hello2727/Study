@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    //눌린상태에선 이 이미지를 보여줘라.
+    <item android:state_pressed="true" android:drawable="@drawable/finger_pressed" />
+    //눌리기 전 기본 상태
+    <item android:drawable="@drawable/finger" />
+</selector>
