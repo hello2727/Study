@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"> //빨라졌다가 느려지는
+
+    //이동(du~:0.5초만에 이루어짐, repeat~:반복 횟수, fillAfter:애니메이션 끝난 후 마지막 위치로 갈 것인지)
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="100%p"
+        android:duration="500"
+        android:repeatCount="0"
+        android:fillAfter="true"/>
+
+</set>
