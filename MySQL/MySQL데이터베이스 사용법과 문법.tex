@@ -1,7 +1,10 @@
 <MySQL 입장>
 우선, cmd창을 키고 밑의 명령어를 칩니다.
-패스워드 필요 : mysql -uroot -p
+패스워드 필요 : mysql -uroot -p 
 패스워드 필요 x : mysql -uroot
+
+<비밀번호 재설정>
+SET PASSWORD = PASSWORD('바꿀 루트 비밀번호')
 
 <데이터 베이스 생성>
 CREATE DATABASE 만들 데이터베이스 이름;
@@ -14,4 +17,27 @@ SHOW DATABASES;
 
 <만들어진 데이터베이스 목록 중 특정 데이터베이스 사용>
 USE 만들어진 데이터베이스 이름;
+
+<테이블 생성>
+CREATE TABLE 만들 테이블 이름(
+  원하는컬럼이름 데이터형식(노출 길이) 옵션,
+             ''                        ,
+             ''                        , 
+  PRIMARY KEY(id)      ->괄호 값 중복 허용 안함     
+); 
+*[옵션 필기] 
+NOT NULL:빈칸 허용 안됨, AUTO_INCREMENT:자동 증가, NULL:빈칸 가능
+
+<만들어진 테이블 목록 보기>
+SHOW TABLES;
+
+<만들어진 테이블 구조 보기>
+DESC 만들어진테이블;
+
+<테이블 안에 레코드(=ROW)값 삽입>
+INSERT INTO 만들어진테이블 (파라미터1, ..., 파라미터N) VALUES('문자일경우 문자값', 숫자일 경우 숫자값, 데이터 형식에 알맞은 값, 설정된 파라미터 수대로);
+
+<만들어진 테이블로부터 컬럼(=COLOMN) 값 가져오기>
+SELECT * FROM 만들어진테이블; //모든 column값 가져오기
+
 
