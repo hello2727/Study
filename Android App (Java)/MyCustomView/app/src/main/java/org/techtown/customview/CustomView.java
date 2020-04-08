@@ -27,7 +27,7 @@ public class CustomView extends View {
     }
 
     public void init(Context context) {
-        paint = new Paint(); //색연필 개념
+        paint = new Paint(); // 색연필 개념
         paint.setColor(Color.RED);
     }
 
