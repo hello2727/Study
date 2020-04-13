@@ -1,5 +1,7 @@
 <?php
 //<?=:echo랑 같은 의미
+//mysqli_real_escape_string:문자열로 만들어주기
+//htmlspecialchars():출력 공격 차단(Cross Site Scripting)
 $conn = mysqli_connect(
   'localhost',
   'root',
@@ -12,7 +14,8 @@ $list = '';
 while($row = mysqli_fetch_array($result)) {
   //<li><a href=\"index.php?id=6\">MySQL</a></li>
   //데이터베이스에 있는 순서대로 링크 목록으로 만들기
-  $list = $list."<li><a href=\"index.php?id={$row['id']}\">{$row['title']}</a></li>";
+  $escaped_title = htmlspecialchars($row['title']);
+  $list = $list."<li><a href=\"index.php?id={$row['id']}\">{$escaped_title}</a></li>";
 }
 
 $article = array(
@@ -20,11 +23,12 @@ $article = array(
   'description'=>'Hello, web'
 );
 if(isset($_GET['id'])) {
+  $filtered_id = mysqli_real_escape_string($conn, $_GET['id']);
   $sql = "SELECT * FROM topic WHERE id={$_GET['id']}";
   $result = mysqli_query($conn, $sql);
   $row = mysqli_fetch_array($result);
-  $article['title'] = $row['title'];
-  $article['description'] = $row['description'];
+  $article['title'] = htmlspecialchars($row['title']);
+  $article['description'] = htmlspecialchars($row['description']);
 }
 
 ?>
