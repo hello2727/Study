@@ -6,4 +6,7 @@
 #### MySQL 문법과 접속방법 노트
 ## 4. PHP & MySQL
 #### 개발환경: Atom 에디터(html, php 코드 작성), XAMPP(PHP사용 켜기), MySQL_WorkBench_8.0(cmd로 접속)
+## 5. JavaScript
+#### 개발환경: Atom 에디터(코드 작성), 구글 크롬
+
 
