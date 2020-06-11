@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">About me</string>
+    <string name="name">it\'s me</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is it\'s me
+    \n\nI love fish.
+    \n\n Are you fish?
+    \n I like guffy
+    \n You know guffy?
+    \n I love that so mush~
+    \n hey, guys~ hold on
+    \nAll men have stars, but they are not the same things for different people.
+        \nFor some, who are travelers, the stars are guides.
+        \nFor others they are no more than little lights in the sky.
+        \nFor others, who are scholars, they are problems...
+        \nBut all these stars are silent.
+        \nYou-You alone will have stars as no one else has them.</string>
+    <string name="what_is_your_nickname">what is your ninckname</string>
+    <string name="done">Done</string>
+</resources>
