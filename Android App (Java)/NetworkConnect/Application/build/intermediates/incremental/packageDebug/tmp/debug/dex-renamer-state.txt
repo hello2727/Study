@@ -1,0 +1,4 @@
+#Fri Jun 19 18:56:36 KST 2020
+base.0=C\:\\Users\\jihye\\Documents\\AndroidStudioProjects\\Study\\Android App (Java)\\NetworkConnect\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
