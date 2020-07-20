@@ -12,7 +12,7 @@ Resuslt
 --------------
 
 <div>
-    <img src="https://user-images.githubusercontent.com/43267195/87905448-88146100-ca9b-11ea-89bc-a9c24b7a0c3a.jpg">
+    <img width="200" src="https://user-images.githubusercontent.com/43267195/87905448-88146100-ca9b-11ea-89bc-a9c24b7a0c3a.jpg">
 </div>
 
 Pre-requisites
