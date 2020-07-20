@@ -8,6 +8,13 @@ Used in a Udacity course in the Android Basics Nanodegree.
 The data is retrieved from the USGS service.
 https://earthquake.usgs.gov/fdsnws/event/1/
 
+Resuslt
+--------------
+
+<div>
+    <img src="https://user-images.githubusercontent.com/43267195/87905448-88146100-ca9b-11ea-89bc-a9c24b7a0c3a.jpg">
+</div>
+
 Pre-requisites
 --------------
 
