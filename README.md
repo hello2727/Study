@@ -10,5 +10,7 @@
 #### 개발환경: Atom 에디터(html, php 코드 작성), XAMPP(PHP사용 켜기), MySQL_WorkBench_8.0(cmd로 접속)
 ## 6. JavaScript
 #### 개발환경: Atom 에디터(코드 작성), 구글 크롬
+## 7. androidFunction
+#### 개발환경: Android, kotlin
 
 
