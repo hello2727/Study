@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun observeLiveData() {
+        viewModel.isPowerOn.observe(this, {
 
+        })
     }
 }
